@@ -1,4 +1,4 @@
-In this project, let's perform **Fetch and Routing** by applying the concepts we have learned till now.
+Performing **Fetch and Routing** with a react app
 
 ### Refer to the image below:
 
@@ -28,30 +28,7 @@ In this project, let's perform **Fetch and Routing** by applying the concepts we
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- When the app is opened, Home Route should be displayed
-- When the Home Route is opened,
-
-  - Make HTTP GET request to the **blogsApiUrl**
-  - **_loader_** should be displayed while fetching the data
-  - After fetching the data, the list of blogs should be displayed
-
-- When a blog item in Home Route is clicked,
-  - Page should be navigated to the Blog Item Details Route with the URL `/blogs/:id`
-- When the Blog Item Details Route is opened,
-  - Make HTTP GET request to the **blogItemDetailsApiUrl** with the blog id to get the details of the blog
-    - Example: `https://apis.ccbp.in/blogs/2`
-  - **_loader_** should be displayed while fetching the data
-  - After fetching the data, the details of the blog should be displayed
-
-</details>
+ 
 
 <details>
 
@@ -187,9 +164,4 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
